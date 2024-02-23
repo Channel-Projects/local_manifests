@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Rastreamento -->
+  <remote name="github" fetch="https://github.com" />
+  
+<!-- Dependências -->
+  <project path="system/qcom" name="LineageOS/android_system_qcom" remote="github" revision="lineage-21" />
+  <project path="hardware/motorola" name="LineageOS/android_hardware_motorola" remote="github" revision="lineage-21" />
+  <project path="external/bson" name="LineageOS/android_external_bson" remote="github" revision="lineage-21" />
+
+<!-- Árvores -->
+  <project path="device/motorola/channel" name="Channel-Projects/android_device_motorola_channel" remote="github" revision="14.0" />
+  <project path="vendor/motorola/channel" name="Channel-Projects/android_vendor_motorola_channel" remote="github" revision="14.0" />
+  <project path="kernel/motorola/sdm632" name="Channel-Projects/kernel_motorola_sdm632" remote="github" revision="14.0" />
+
+</manifest>
